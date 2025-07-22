@@ -15,11 +15,11 @@ Contains R scripts for:
 - **Differential Expression & Enrichment Analysis**: Performing Differential Gene Expression Analysis (DGEA) and Gene Set Enrichment Analysis (GSEA) (`DGEA_and_GSEA.R`).
 - **GSVA Analysis**: Conducting Gene Set Variation Analysis (GSVA) (`GSVA.R`).
 - **xCell Analysis**: Performing xCell analysis (`xcell.R`).
-- **Heatmaps from Gene Sets**: Generating heatmaps to visualize xCell results and specific gene sets ()
+- **Heatmaps from Gene Sets**: Generating heatmaps to visualize xCell results and specific gene sets (`heatmaps_gene_sets.R`)
 
 ### input_files
 Contains:
-- **Gene Sets File**: Excel file with gene sets used in `xcell_genesets_heatmaps.R` (`25_02_05_RNAseq_Final_Heatmaps_Clean_V2.xlsx`).
+- **Gene Sets File**: Excel file with gene sets used in `heatmaps_gene_sets.R` (`Gene_Sets_File.xlsx`).
 
 ---
 
