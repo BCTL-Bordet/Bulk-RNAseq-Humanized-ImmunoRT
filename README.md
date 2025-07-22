@@ -10,10 +10,12 @@ This repository contains scripts and functions used to process and analyze the d
 
 ### R
 Contains R scripts for:
-- **Preprocessing & Normalization**: Cleaning and formatting count and TPM files from human sequencing data (`clean_human_count_TPM.R`).
+- **Preprocessing & Normalization**: Cleaning and formatting counts and TPM files from human sequencing data (`clean_human_count_TPM.R`).
+- **Data Visualisation**: Dendrogram and PCA on TPM data (`data_visualisation.R`)
 - **Differential Expression & Enrichment Analysis**: Performing Differential Gene Expression Analysis (DGEA) and Gene Set Enrichment Analysis (GSEA) (`DGEA_and_GSEA.R`).
 - **GSVA Analysis**: Conducting Gene Set Variation Analysis (GSVA) (`GSVA.R`).
-- **xCell & Heatmaps**: Performing xCell analysis and generating heatmaps to visualize xCell results and specific gene sets (`xcell_genesets_heatmaps.R`).
+- **xCell Analysis**: Performing xCell analysis (`xcell.R`).
+- **Heatmaps from Gene Sets**: Generating heatmaps to visualize xCell results and specific gene sets ()
 
 ### input_files
 Contains:
